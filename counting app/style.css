@@ -1,0 +1,39 @@
+* {
+  font-family: concert one;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.6rem;
+
+  flex-direction: column;
+}
+
+.value {
+  margin: 2rem 0;
+  line-height: 7rem;
+  font-size: 2em;
+}
+
+.action button {
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.action button:hover {
+  color: #333;
+}

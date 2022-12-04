@@ -1,5 +1,5 @@
 // Create an empty array to store our to-do list items
-var toDoList = [];
+let toDoList = [];
 
 // Add a new item to the to-do list
 function addToDo(item) {
@@ -8,7 +8,7 @@ function addToDo(item) {
 
 // Remove an item from the to-do list
 function removeToDo(item) {
-  var index = toDoList.indexOf(item);
+  let index = toDoList.indexOf(item);
   if (index > -1) {
     toDoList.splice(index, 1);
   }
@@ -16,9 +16,9 @@ function removeToDo(item) {
 
 // Display the to-do list on the page
 function displayToDoList() {
-  var list = document.createElement("ul");
-  for (var i = 0; i < toDoList.length; i++) {
-    var item = document.createElement("li");
+  let list = document.createElement("ul");
+  for (let i = 0; i < toDoList.length; i++) {
+    let item = document.createElement("li");
     item.innerHTML = toDoList[i];
     list.appendChild(item);
   }

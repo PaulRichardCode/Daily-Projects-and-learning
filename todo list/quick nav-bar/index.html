@@ -1,0 +1,41 @@
+<!-- HTML for the collapse bar -->
+<div class="collapse-bar">
+  <button class="collapse-button">Click to toggle collapse</button>
+  <div class="collapse-content">Content goes here...</div>
+</div>
+
+<!-- CSS for styling the collapse bar -->
+<style>
+  .collapse-bar {
+    width: 100%;
+  }
+
+  .collapse-button {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .collapse-content {
+    width: 100%;
+    padding: 15px;
+    display: none;
+  }
+</style>
+
+<!-- JavaScript for implementing the toggle behavior -->
+<script>
+  const collapseButton = document.querySelector(".collapse-button");
+  const collapseContent = document.querySelector(".collapse-content");
+
+  collapseButton.addEventListener("click", function () {
+    if (collapseContent.style.display === "none") {
+      collapseContent.style.display = "block";
+    } else {
+      collapseContent.style.display = "none";
+    }
+  });
+</script>

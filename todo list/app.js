@@ -38,3 +38,19 @@ removeToDo("Do the dishes");
 
 // Display the updated to-do list
 displayToDoList();
+
+/* function largestDouble(number, top) {
+  let largestDouble = number * 2; // start with the double of the given number
+
+  for (let i = 0; i < top; i++) {
+    // keep doubling the number until we reach the top value
+    largestDouble = largestDouble * 2;
+    if (largestDouble >= top) {
+      // if the double is greater than or equal to the top value, break out of the loop
+      break;
+    }
+  }
+
+  return largestDouble;
+}
+ */

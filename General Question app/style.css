@@ -36,19 +36,20 @@ h1 {
   font-size: 0.9rem;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: white;
 }
 
 .question-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem;
+  background-color: aliceblue;
   border-bottom: 1px solid rgba(97, 94, 94, 0.418);
 }
 
 .question-text {
   padding-top: 1rem;
+  background-color: aliceblue;
 }
 
 .hidder {
